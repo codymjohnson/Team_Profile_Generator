@@ -30,7 +30,7 @@ const rendManager = manager => {
     template = changePlaceholder(template, "role", manager.grabRole());
     template = changePlaceholder(template, "email", manager.grabEmail());
     template = changePlaceholder(template, "id", manager.grabId());
-    template = changePlaceholder(template, "officenumber", manager.grabOfficeNumber());
+    template = changePlaceholder(template, "officeNumber", manager.grabOfficeNumber());
     return template;
 };
 

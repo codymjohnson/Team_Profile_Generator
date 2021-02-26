@@ -35,7 +35,7 @@ const getInfo = () => {
         {
             type: "input",
             message: "Manager's office number?",
-            name: "office number",
+            name: "officeNumber",
         },
     ])
         .then((response) => {
