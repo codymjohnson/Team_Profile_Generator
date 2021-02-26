@@ -12,7 +12,7 @@ const employees = [];
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
-const htmlRend = require("./lib/renderHtml");
+const render = require("./lib/renderHtml");
 
 // inquire questions to build up employees files to push to new page
 const getInfo = () => {

@@ -10,7 +10,7 @@ class Employee {
         return this.name;
     }
 
-    grabid() {
+    grabId() {
         return this.id;
     }
 
